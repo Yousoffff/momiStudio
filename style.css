@@ -15,6 +15,14 @@
   background: #111;
   z-index: 2;
 }
+
+@media only screen and (max-width : 1020px){
+  .showcase-vid{
+    width: 100vw;
+    
+  }
+}
+
 header {
   position: fixed;
   top: 0px;
@@ -124,8 +132,6 @@ div h2 {
  
 }
 .bio-text {
-  border: 1px solid;
-  background-color: gray;
   width: 540px;
   display: flex;
   justify-content: center;
@@ -437,7 +443,7 @@ div h2 {
 }
 .ul-co:hover .a-co:hover {
   color: #000;
-  background-color: rgb(197, 42, 42);
+  
 }
 
 
@@ -487,7 +493,9 @@ div h2 {
 }
 
 
-
+.mmd-grid{
+  margin-top: 50px;
+}
 
 
 
