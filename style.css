@@ -16,12 +16,6 @@
   z-index: 2;
 }
 
-@media only screen and (max-width : 1020px){
-  .showcase-vid{
-    width: 100vw;
-    
-  }
-}
 
 header {
   position: fixed;
@@ -34,6 +28,12 @@ header {
   background-color: rgb(49, 81, 114);
   height: 80px;
 }
+@media screen and (max-width: 1020px){
+  header{
+    flex-direction: column;
+  } 
+}
+
 .logo {
   text-transform: uppercase;
   cursor: pointer;
@@ -58,6 +58,10 @@ header {
   background: #576a74;
   mix-blend-mode: overlay;
 }  */
+
+
+
+
 .text {
   display: flex;
   align-items: center;
@@ -70,6 +74,9 @@ header {
   flex-direction: row;
   margin: 20px;
 }
+
+
+
 .list2-item {
   padding: 20px;
 }
