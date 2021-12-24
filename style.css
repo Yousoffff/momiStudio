@@ -135,9 +135,17 @@ div h2 {
   grid-template-columns: repeat(2, minmax(150px, 1fr));
   margin: 70px;
   justify-items: center;
-  
- 
 }
+
+@media screen and (max-width:1047px){
+  .biography{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(150px,1fr));
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
 .bio-text {
   width: 540px;
   display: flex;
@@ -160,6 +168,15 @@ div h2 {
   margin: 70px;
   margin-bottom: 35px;
 }
+@media screen and (max-width:1050px){
+  .professional-grid{
+    display: grid;
+    grid-template-columns: repeat(1,minmax(150px,1fr));
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .professional {
   border: 1px solid white;
   border-radius: 2%;
