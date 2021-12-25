@@ -604,3 +604,9 @@ background-color: white;
   justify-content: space-evenly;
   width: 100%;
 }
+@media screen and (max-width:678px){
+  .form-flex{
+    flex-direction: column;
+    align-items: center;
+  }
+}
